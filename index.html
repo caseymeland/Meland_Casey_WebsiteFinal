@@ -1,11 +1,86 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <link rel="stylesheet" href="index.css">
-    <meta charset="utf-8">
-    <title></title>
-  </head>
-  <body>
-    <div></div>
-  </body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="stylesheet/stylesheet.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+<body>
+    <div id="mobile-menu" style="display: none;">
+        <button id="close-button">X</button>
+        <p><a href="#">Home</a></p>
+        <p><a href="#">Menu</a></p>
+        <p><a href="#">Contact</a></p>
+        <p><a href="#">About</a></p>
+    </div>
+    <header class="grid-container1 header">
+        <img src="Images/Logo.png" width="75">
+        <nav class="nav">
+            <a href="#">Home</a>
+            <a href="#">Menu</a>
+            <a href="#">Contact</a>
+            <a href="#">About</a>
+            <button id="mobile-button"><span class="material-symbols-outlined">menu</span></button>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <img src="Images/Header.jpg" width="100%">
+        </section>
+    </main>
+    <main class="Food-selection">
+        <section>
+            <div class="Top-Rated-Menu-Items">
+                <h1 style="text-align: center;">Top Rated Menu Items</h1>
+            </div>
+            <div class="Food-selection grid-container2">
+                <Img src="Images/Pancit.jpg" alt="Pancit" width="600">
+                <Img src="Images/Lumpia.jpg" alt="Lumpia" width="600">
+                <Img src="Images/Adobo.jpg" alt="Adobo" width="600">
+            </div>
+            <div class="Food-selection grid-container4">
+                <p>Pancit</p>
+                <p>Lumpia</p>
+                <p>Adobo</p>
+            </div>
+            <div class="Food-selection grid-container4">
+                <p>$12</p>
+                <p>$15</p>
+                <p>$25</p>
+            </div>
+            <div class="grid-container3">
+                <h3>Our Hours<br>
+                    Monday-Friday 5PM-10PM<br>
+                    Saturday 1PM-10PM<br>
+                    Sunday 12PM-4PM</h3>
+                <img src="Images/Storefront.jpg" width="100%">
+            </div>
+            <div class="reviews">
+                <h3>Customer Reviews</h3>
+            </div>
+            <div class="customer-review">   
+                <h4>Customer: Eric Johnson</h4>
+                <h4>Date: 11/18/23</h4>
+                <p>Review: I recently decided to stop into Kasama and man was I impressed. The
+                    Staff are extremely respectful and the food is cooked very well. I highly
+                    Recommend and plan on going back soon.
+                    </p>
+            </div>
+            <div>
+                <img src="Images/Map.png" alt="Map" width="100%">
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="Foot">  
+            <a href="https://www.instagram.com/kasamachicago/">Instagram</a>
+            <h5>October 20th, 2023 - Web Design 1 - Casey Meland</h5>
+        </div>
+    </footer>
+    <script src="Javascrpit/index.js"></script>
+</body>
 </html>
